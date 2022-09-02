@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/LevelObjects/LevelGeometry.gd" type="Script" id=1]
+
+[node name="LevelGeometry" type="Node2D"]
+script = ExtResource( 1 )
+filePath = "res://Assets/Maps/TxtMaps/test.gd"
+
+[connection signal="visibility_changed" from="." to="." method="_on_LevelGeometry_visibility_changed"]
